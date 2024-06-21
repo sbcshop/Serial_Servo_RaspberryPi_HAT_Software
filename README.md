@@ -56,17 +56,17 @@ For more details about Serial Servo Motor checkout [Manual](https://github.com/s
 - (12) Standard 40 pin Raspberry Pi Header
 
 ### Interfacing Details 
-**HAT and Raspberry Pi Pins Mapping Detail**
+**Pins Mapping of RPi and HAT**
   
-  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/Serial_Servo_RPi_HAT.jpg" width="586" height="361">
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/Serial_Servo_RPi_HAT_Interfacing.jpg" width="586" height="361">
   
-  _Display and Touch Control Pins:_
+  _Display Pins:_
   | Symbol | Description |
   |---|---|
   | CS | Display control Chip select pin for SPI bus interfacing |
-  | CLK | SPI Clock Pin for both Touch & Display |
-  | DC | Data/Command pin of Display, Logic HIGH for Data and Logic LOW for Command   |
-  | DIN  | Data In (MOSI) pin to both Display and Touch for SPI interfacing |
+  | CLK | Display SPI Clock Pin |
+  | DC | Data/Command pin of Display |
+  | DIN  | Data In (MOSI) pin of Display SPI interfacing |
   | RESET | Display Reset pin |
   | BL | BackLight for Display panel |
   
@@ -93,9 +93,9 @@ For more details about Serial Servo Motor checkout [Manual](https://github.com/s
   - Now you can either use Screen and Keyboard to access Pi or Setup to use [remotely with VNC viewer](https://projects.raspberrypi.org/en/projects/infrared-bird-box/13).
 
 ## Resources 
-  * [Schematic]()
-  * [Step File]()
-  * [Hardware Files]()
+  * [Schematic](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Hardware/blob/main/Design%20Data/SCH_Serial_Servo_RaspberryPi_HAT.pdf)
+  * [Step File](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Hardware/blob/main/Mechanical%20Data/Serial_Servo_RaspberryPi_HAT.step)
+  * [Hardware Files](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Hardware)
     
 **Other Related :**
   * [Getting Started With Raspberry Pi](https://www.raspberrypi.com/documentation/computers/getting-started.html)
