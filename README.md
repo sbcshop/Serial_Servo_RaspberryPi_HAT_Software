@@ -56,8 +56,51 @@ For more details about Serial Servo Motor checkout [Manual](https://github.com/s
 - (12) Standard 40 pin Raspberry Pi Header
 
 ### Interfacing Details 
+**HAT and Raspberry Pi Pins Mapping Detail**
+  
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/Serial_Servo_RPi_HAT.jpg" width="586" height="361">
+  
+  _Display and Touch Control Pins:_
+  | Symbol | Description |
+  |---|---|
+  | CS | Display control Chip select pin for SPI bus interfacing |
+  | CLK | SPI Clock Pin for both Touch & Display |
+  | DC | Data/Command pin of Display, Logic HIGH for Data and Logic LOW for Command   |
+  | DIN  | Data In (MOSI) pin to both Display and Touch for SPI interfacing |
+  | RESET | Display Reset pin |
+  | BL | BackLight for Display panel |
+  
+   _Actuator Pins:_
+  | Symbol | Description | 
+  |---|---|
+  | BT1 | Programmable Button 1 |
+  | BT2 | Programmable Button 2 |
+  | BT3 | Programmable Button 3 |
+  | BT4 | Programmable Button 4 |
+  
+   _Serial Servo Bus Pins:_
+   
+  * Servo connector having +ve[6~8.4VDC], -ve[GND] and Signal pin. 
+  * Serial Servo Signal pins breakout into UART RXD and TXD to connect with RPi UART pins,
+    
+  | Symbol | Description | 
+  |---|---|
+  | Servo Bus RXD | UART communication pin |
+  | Servo Bus TXD | UART communication pin |
+  
+### Download and install Raspberry OS to Pi
+  - Follow the Getting Started [Link](https://www.raspberrypi.com/documentation/computers/getting-started.html) to perform OS install 
+  - Now you can either use Screen and Keyboard to access Pi or Setup to use [remotely with VNC viewer](https://projects.raspberrypi.org/en/projects/infrared-bird-box/13).
 
 ## Resources 
+  * [Schematic]()
+  * [Step File]()
+  * [Hardware Files]()
+    
+**Other Related :**
+  * [Getting Started With Raspberry Pi](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+  * [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/)
+
 
 ## Related Products  
 
