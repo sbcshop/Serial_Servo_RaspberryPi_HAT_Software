@@ -105,13 +105,36 @@ For more details about Serial Servo Motor checkout [Manual](https://github.com/s
   ```
   git clone https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software.git
   ```
+* Open anyone example code in python IDE like IDLE, Thonny, etc. and run
 
-### 2) RPi HAT with GUI software
-* Here HAT is still connected on Raspberry Pi Header but we will see how to use with GUI software. This technique allows to use HAT with code 
-* We are required to run Python based GUI software in RPi which is available in github here.
-* Open
-
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/example_codes.png" width="495" height="190">
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/example_run.png" width="1094" height="590">
   
+### 2) RPi HAT with GUI software
+* Here HAT is still connected on Raspberry Pi Header but we will see how to use with GUI software.
+* We are required to run Python based GUI software in RPi which is available in github => [SB_Servo_GUI_Python](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/tree/main/SB_Servo_GUI_Python)
+  
+* Open and Run "configGUI.py" in python IDE, this will open GUI software as shown below
+
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/Gui_software.png" width="912" height="492">
+  
+* Select proper communication terminal and default baud rate is 115200, click on connect button.
+  
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/connect_GUI_HAT.png" width="484" height="303">
+  
+* In operation section write Servo ID and click READ, then you can select Motor or Servo Mode for operation.
+  
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/motor_mode.png" width="484" height="303">
+  
+* If you don't know ID you can search for connected motors from Parameters section. Here you can perform various Read/Write operation shown below,
+  
+  <img src="https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software/blob/main/images/parameter_view.png" width="481" height="301">
+   
+### 3) Standalone with Windows PC/laptop
+* Serial Servo Raspberry Pi HAT can be used without Raspberry Pi board. For this just connect HAT hardware to PC/Laptop directly using onboard type C connector, adapter and servo motors.
+* Make sure to turn ON power for Servo supply using sliding switch. 
+* Now you can follow complete section of [Serial Servo Breakout for instructions](https://github.com/sbcshop/Serial_Servo_Breakout_Software#serial-servo-breakout-with-gui-software) to use.
+
 ## Resources 
   * [Schematic](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Hardware/blob/main/Design%20Data/SCH_Serial_Servo_RaspberryPi_HAT.pdf)
   * [Step File](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Hardware/blob/main/Mechanical%20Data/Serial_Servo_RaspberryPi_HAT.step)
