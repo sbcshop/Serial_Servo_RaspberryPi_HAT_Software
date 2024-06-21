@@ -67,8 +67,8 @@ For more details about Serial Servo Motor checkout [Manual](https://github.com/s
   | CLK | Display SPI Clock Pin |
   | DC | Data/Command pin of Display |
   | DIN  | Data In (MOSI) pin of Display SPI interfacing |
-  | RESET | Display Reset pin |
-  | BL | BackLight for Display panel |
+  | RST | Display Reset pin |
+  | BackLight | BackLight for Display panel |
   
    _Actuator Pins:_
   | Symbol | Description | 
