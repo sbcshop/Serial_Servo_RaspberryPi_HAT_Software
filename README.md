@@ -87,11 +87,31 @@ For more details about Serial Servo Motor checkout [Manual](https://github.com/s
   |---|---|
   | Servo Bus RXD | UART communication pin |
   | Servo Bus TXD | UART communication pin |
-  
-### Download and install Raspberry OS to Pi
-  - Follow the Getting Started [Link](https://www.raspberrypi.com/documentation/computers/getting-started.html) to perform OS install 
-  - Now you can either use Screen and Keyboard to access Pi or Setup to use [remotely with VNC viewer](https://projects.raspberrypi.org/en/projects/infrared-bird-box/13).
 
+**You have 3 Options to use Serial Servo Raspberry Pi HAT**
+* _1) RPi HAT with example_
+* _2) RPi HAT with GUI software_
+* _3) Standalone with Windows PC/laptop_
+
+### 1) RPi HAT with example
+
+<img src="https://shop.sb-components.co.uk/cdn/shop/files/RASPBERRY_PI_HAT_MOTOR.png?v=1718964172&width=400">
+
+* Download and setup your Raspberry Pi with OS, you can follow the Getting Started [Link](https://www.raspberrypi.com/documentation/computers/getting-started.html) to perform OS install.
+* You need to enable serial interface in Raspberry Pi, find instruction [here](https://github.com/sbcshop/Pitalk_4G_HAT_Software/blob/main/Documents/Serial%20Interface%20Enable%20RPi.pdf) 
+* Once Raspberry Pi ready, connect Serial Servo HAT on standard 40 pin header, adapter 6~8.4V DC and Serial Servo Motors to dedicated connectors.
+* Make sure turn ON adapter power with onboard sliding switch
+* Download complete github to Raspberry Pi,
+  ```
+  git clone https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Software.git
+  ```
+
+### 2) RPi HAT with GUI software
+* Here HAT is still connected on Raspberry Pi Header but we will see how to use with GUI software. This technique allows to use HAT with code 
+* We are required to run Python based GUI software in RPi which is available in github here.
+* Open
+
+  
 ## Resources 
   * [Schematic](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Hardware/blob/main/Design%20Data/SCH_Serial_Servo_RaspberryPi_HAT.pdf)
   * [Step File](https://github.com/sbcshop/Serial_Servo_RaspberryPi_HAT_Hardware/blob/main/Mechanical%20Data/Serial_Servo_RaspberryPi_HAT.step)
